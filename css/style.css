@@ -1,0 +1,65 @@
+body{
+	background-color: #D2691E;
+}
+main{
+	background-color: antiquewhite;
+	margin-top: 20px;
+}
+.logo{
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin-right: 20px;
+}
+.carousel-caption{
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.carousel-caption h5{
+	font-size: 50px;
+	text-shadow: 2px 2px 2px #333;
+}
+.carousel-caption p{
+	text-shadow: 2px 2px 2px #333;
+}
+
+.titulos{
+	float: left;
+	width: 250px;
+	margin-top: 20px;
+}
+.titulo{
+	font-family: 'Marck Script', cursive;
+	font-size: 50px;
+	width: 250px;
+}
+.slogan{
+	font-size: 20px;
+}
+.redes-sociais{
+	width: 185px;
+	float: right;
+}
+.ativo{
+	font-weight: bold;
+	border-bottom: 5px solid #D2691E;
+}
+.ativo-receita{
+	font-weight: bold;
+}
+footer{
+	background-color: #8B4513;
+}
+textarea{
+	resize: none;
+}
+@media only screen and (max-width: 768px){
+	.logo, .titulos, .redes-sociais{
+		float: none;
+		clear: both;
+		text-align: center;
+		margin: auto;
+	}
+}
+.alert p{
+	text-align: justify;
+}
